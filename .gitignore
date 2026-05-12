@@ -1,0 +1,27 @@
+# Runtime and login state
+xhs-playwright-profile/
+xhs-output/
+playwright/
+output/
+*.log
+*.tmp
+
+# Python and Node build artifacts
+__pycache__/
+*.py[cod]
+node_modules/
+
+# Generated publishing assets and screenshots
+*.png
+*.jpg
+*.jpeg
+*.webp
+copywriting_*.md
+publish_result_*.json
+xhs_before_*.png
+xhs_after_*.png
+
+# Local environment files
+.env
+.env.*
+local_config.*

@@ -1,0 +1,46 @@
+# 小红书文案模板配置
+
+templates:
+  天气:
+    title_patterns:
+      - "今日天气｜{city}{emoji}"
+      - "{city}天气｜{temp}°C 体感{feeling}"
+      - "被{city}的天气治愈了{emoji}"
+    tags:
+      - "#上海天气"
+      - "#天气预报"
+      - "#日常生活"
+      - "#治愈系"
+      - "#今日份好心情"
+  
+  美食:
+    title_patterns:
+      - "{city}这家{food_type}绝了{emoji}"
+      - "藏在{location}的神仙{food_type}"
+      - "为了这口{food_type}我愿意来{city}100 次"
+    tags:
+      - "#美食探店"
+      - "#上海美食"
+      - "#吃货日常"
+      - "#美食分享"
+  
+  旅行:
+    title_patterns:
+      - "{location}攻略｜{days}天{nights}夜超详细"
+      - "第一次去{location}看这篇就够了{emoji}"
+      - "在{location}遇到了人生中最美的风景"
+    tags:
+      - "#旅行攻略"
+      - "#旅行"
+      - "#旅游"
+      - "#打卡"
+  
+  default:
+    title_patterns:
+      - "关于{topic}的一些分享{emoji}"
+      - "{topic}｜我的一些心得体会"
+      - "被{topic}治愈的瞬间{emoji}"
+    tags:
+      - "#日常"
+      - "#分享"
+      - "#生活记录"
